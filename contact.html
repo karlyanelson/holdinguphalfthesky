@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    <link rel="stylesheet" href="boilerplate.css" />
+	<link rel="stylesheet" href="styles.css" />
+	<meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+         <div id="hidNav">
+            <ul class = "links">
+                <li><a href="about.html" > ABOUT</a> </li>
+                <li><a href="contact.html" > CONTACT</a> </li>
+                <li><a href="sources.html" > SOURCES</a> </li>
+            </ul>
+
+            <ul class = "thumbnails">
+        
+                <li><a style="background-image: url(images/navImage1.jpg)" href="intro.html" > INTRODUCTION</a> </li>
+                <li><a style="background-image: url(images/navImage2.jpg)" href="ch1.html" > CONSCIOUSNESS RAISING</a> </li>
+                <li><a style="background-image: url(images/navImage3.jpg)" href="ch2.html" > IRON GIRLS</a> </li>
+                <li><a style="background-image: url(images/navImage4.jpg)" href="ch3.html" > CHALLENGING FEMININITY</a> </li>
+                <li><a style="background-image: url(images/navImage5.jpg)" href="ch4.html" > THE TURNING <br />POINT</a> </li>
+
+            </ul>
+        </div>
+
+        <div id="openNav"></div>​
+        
+    <div id="contact" class="contact clearfix">
+        <p id="text">
+        <span id="textspan">CONTACT<br /><br /><br /></span><span id="textspan1">Karly Nelson&nbsp;<br /></span><br /><span id="textspan2"> <a href="http://www.karlynelson.com/" target="_blank">www.karlynelson.com</a><br />
+
+        <a href="mailto:karlyanelson@gmail.com">karlyanelson@gmail.com</a>
+
+        <br /><br /><a href="https://www.linkedin.com/pub/karly-nelson/4b/571/52" target="_blank">LinkedIn</a> <br/> 
+        
+        <a href="https://twitter.com/KarlyANelson" target="_blank">Twitter</a><br/> <a href="http://instagram.com/karlyanelson" target="_blank">Instagram </a></span>
+        </p>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">
+
+            $("#openNav").click(function() {
+                var menu = $("#hidNav");
+                if ($(menu).is(":visible")) {
+                    $(menu).animate({height: 0}, 500, function() {$(menu).hide();});
+                } else {
+                    $(menu).show().animate({height: 170}, 500);           
+                }
+            });
+    </script>
+    
+    </body>
+</html>
+
+

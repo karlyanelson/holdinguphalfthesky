@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    <link rel="stylesheet" href="boilerplate.css" />
+	<link rel="stylesheet" href="styles.css" />
+	<meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+         <div id="hidNav">
+            <ul class = "links">
+                <li><a href="about.html" > ABOUT</a> </li>
+                <li><a href="contact.html" > CONTACT</a> </li>
+                <li><a href="sources.html" > SOURCES</a> </li>
+            </ul>
+
+            <ul class = "thumbnails">
+        
+                <li><a style="background-image: url(images/navImage1.jpg)" href="intro.html" > INTRODUCTION</a> </li>
+                <li><a style="background-image: url(images/navImage2.jpg)" href="ch1.html" > CONSCIOUSNESS RAISING</a> </li>
+                <li><a style="background-image: url(images/navImage3.jpg)" href="ch2.html" > IRON GIRLS</a> </li>
+                <li><a style="background-image: url(images/navImage4.jpg)" href="ch3.html" > CHALLENGING FEMININITY</a> </li>
+                <li><a style="background-image: url(images/navImage5.jpg)" href="ch4.html" > THE TURNING <br />POINT</a> </li>
+
+            </ul>
+        </div>
+
+        <div id="openNav"></div>​
+        
+    <div id="sources" class="sources clearfix">
+        <p id="text">
+        SOURCES <br />
+        </p>
+        <p id="text1">
+            <span id="textTitle">TEXT SOURCES</span> </br></br>
+        Hathaway, Michael J. <span id="textspan">Environmental Winds: Making the Global in Southwest China. <br /></span>Berkeley: University of California Press, 2013.<br />
+        <br />Lieberman, S.T. 1991. “Visions and Lessons: ‘China’ in Feminist Theory-Making, 1966-1977.” <span id="textspan1">Michigan Feminist Studies</span> 6: 91-107.<br />
+        <br />Ross, K. 2010. “China and Women’s Liberation: Re-assessing the Relationship through Population Policies.” Hecate 36 (I):117-42.<br />
+        <br />“Iron Women, Foxy Ladies.” <span id="textspan2"><a href="http://chineseposters.net/" target="_blank">www.chineseposters.net</a></span><br />
+        <br />“A Women’s Liberation Tribute to William Hinton and the Women of Long Bow.” <span id="textspan3"><a href="http://carolhanisch.org//" target="_blank">www.carolhanisch.org</a></span><br />
+        </p>
+    
+        <p id="text3">
+            <span id="textTitle">IMAGE SOURCES</span> </br></br>
+        Landsberger, Stefan. <span id="textspan">Chinese Propaganda Posters. </span>Amsterdam: The Pepin Press, 1995.<br /> 
+        
+        <br /> Schnapp, Jeffrey T. <span id="textspan">Revolutionary Tides: The Art of the Political Poster 1914-1989. </span><br /> Milan: Skira editore, 2005.<br /> 
+        
+        <br /><span id="textspan2"><a href="http://chineseposters.net/" target="_blank">www.chineseposters.net</a></span><br /> 
+
+        </p>
+
+        <p id="text2">
+            
+        <span id="textspan4"><a href="additional.html">ADDITIONAL RESOURCES</a></span> ON THIS TOPIC<br />
+        </p>
+    </div>
+    
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">
+
+            $("#openNav").click(function() {
+                var menu = $("#hidNav");
+                if ($(menu).is(":visible")) {
+                    $(menu).animate({height: 0}, 500, function() {$(menu).hide();});
+                } else {
+                    $(menu).show().animate({height: 170}, 500);           
+                }
+            });
+    </script>
+    </body>
+</html>
+
+

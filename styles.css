@@ -1,0 +1,2713 @@
+.fun{
+    height: 800px
+}
+
+
+
+body {
+    margin-top: -20px;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+ 
+
+#hidNav {
+    height: 0px;
+    width: 100%;
+    background-color: rgb(197, 52, 46);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+}
+
+
+
+
+#openNav {
+    position: fixed;
+    z-index: 101;
+    background-image: url(images/menuButton.jpg);
+    width: 35px;
+    height: 35px;
+    top: 15px;
+    left: 15px;
+    
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+#openNav:hover{
+    outline: 2px solid white;
+    
+}
+
+
+.links{
+    position: fixed;
+    top: 0px;
+    right: 40px;
+    padding: 0;
+}
+
+.links li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    width: 128px;
+    height: 0px;
+    padding: 0px;
+}
+
+.links li a {
+    width: 100%;
+    height: 100%;
+    
+    display: block;
+    
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+    color: #f2d039;
+}
+
+.links li a:hover {
+    color: white;
+    opacity: 1;
+    }
+
+.thumbnails{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.thumbnails li {
+    list-style: none;
+    
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    margin: 5px;
+    
+    padding: 0px;
+}
+
+.thumbnails li a {
+    width: 250px;
+    height: 100px;
+    margin: 0;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.7em;
+    color: white;
+    text-align: left;
+    padding: 8px;
+
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.thumbnails li a:hover {
+    outline: #f2d039 solid 2px;
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+
+/* ----------------------------------------- INTRO -----------------------------------------  */
+
+.introp1 {
+    height: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2px;
+    
+    width: 100%;
+    background-image:url("images/home.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    position:relative;
+    }
+
+#introp1 .downArrow{
+    background-image:url("images/clear.gif");
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 600px;
+    margin: auto;
+}
+
+.introp2 {
+    height: 780px;
+    margin-left: auto;
+    margin-right: auto;
+        margin-bottom: -2px;
+    
+    width: 100%;
+    position: relative;
+        background-image:url("images/introp2.jpg");
+        background-attachment: scroll;
+        background-size: 100%;
+        background-position: 0% 0%;
+        background-repeat: no-repeat no-repeat;
+}
+
+#introp2secondary {
+    float: left;
+    font-size: 1em;
+    
+    height: auto;
+    text-align: left;
+    
+    
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    min-height: 276px;
+    position: absolute;
+    top: 205px;
+    left: 14.665799%;
+    margin-top: 0px;
+        margin-left: 0px;
+        clear: none;
+        position: absolute;
+        width: 60%;
+        top: 205px;
+        left: 14.665799%;
+        height: auto;
+        min-height: 276px;
+}
+
+    #introp2 .textspan {
+        float: none;
+        font-size: 2.4em;
+        line-height: 1.2em;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        color: rgb(240, 240, 230);
+    }
+
+    .introp3  {
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 100%;
+    background-image:url("images/1960s.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    position: relative;
+
+}
+
+#introp3copy {
+    float: left;
+    
+    font-size: 1em;
+    line-height: 1.3em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    
+    height: auto;
+    text-align: left;
+    
+    
+    clear: none;
+    min-height: 235px;
+    margin-right: 0%;
+   
+    clear: none;
+    width: 25.5%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(242, 208, 57);
+    margin-top: 458px;
+    margin-left: 60.495877%;
+    padding: 20px;
+}
+
+
+
+ 
+.introp4 {
+    height: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 100%;
+    background-color: rgba(197, 52, 46, 0.8);
+    position: relative;
+
+}
+
+#introp4copy {
+    font-size: 1em;
+    line-height: 1em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+
+    float: left;
+    width: 22.430556%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    clear: none;
+    min-height: 279px;
+    	margin-top: 1174px;
+        margin-left: -85.333116%;
+        clear: none;
+        font-family: helvetica;
+        color: rgb(242, 221, 123);
+        line-height: 1.3em;
+        font-weight: 300;
+}
+
+#introp4 #image {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
+
+ .introp5 {
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 100%;
+    background-image:url("images/mao.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+#introp5pullout {
+    float: left;
+    font-size: 1em;
+    width: 46.111111%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 47.291667%;
+    margin-top: 315px;
+    clear: none;
+    min-height: 222px;
+        background-attachment: fixed;
+        line-height: 1.2em;
+        font-family: 'Oswald', sans-serif;
+}
+
+#introp5 #textspan {
+    float: none;
+    font-size: 2.4em;
+    line-height: 1.2em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    position: fixed;
+    top: 250px;
+    left: 700px;
+    margin-right: 40px;
+    color: rgb(255, 255, 255);
+    
+    background-attachment: fixed;
+
+}
+
+.introp6 {
+    height: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    width: 100%;
+    background-color: rgb(240, 240, 230);
+}
+
+#introp6pullout1 {
+    float: left;
+    font-size: 1em;
+    width: 46.041667%;
+    height: auto;
+    text-align: left;
+    line-height: 1em;
+    margin-left: 47.152778%;
+    margin-top: 133px;
+    clear: none;
+    min-height: 148px;
+}
+
+#introp6 #Span {
+    float: none;
+    
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: rgb(197, 52, 46);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+}
+
+#introp6copy1 {
+    float: left;
+    font-size: 1em;
+    width: 22.4%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin-left: 47.222222%;
+    margin-top: 0px;
+    clear: both;
+    min-height: 371px;
+}
+
+#introp6 #textspan {
+    float: none;
+    font-size: 1em;
+    line-height: 1.3em;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#introp6pullout2 {
+    float: left;
+    font-size: 1em;
+    width: 54.930556%;
+    height: auto;
+    text-align: left;
+    line-height: 1em;
+    margin-left: 14.861111%;
+    margin-top: 24px;
+    clear: both;
+    min-height: 167px;
+    margin-right: 0%;
+}
+
+#introp6 #textspan1 {
+    float: none;
+    font-size: 2em;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: rgb(197, 52, 46);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#introp6copy2 {
+    float: left;
+    font-size: 1em;
+    width: 22.220052%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin-left: -54.931641%;
+    margin-top: 179px;
+    clear: none;
+    min-height: 378px;
+    margin-right: 0%;
+    margin-bottom: 100px;
+}
+
+#introp6 #textspan2 {
+    float: none;
+    font-size: 1em;
+    line-height: 1.3em;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#introp6 #textspan3 {
+    float: none;
+    font-size: 1em;
+    line-height: 1.1em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#introp5copy2red {
+    float: none;
+    font-size: 1em;
+    line-height: 1.1em;
+    color: rgb(197, 52, 46);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+
+
+#introbottomnav{
+    background-image: url(images/bottomnav1.jpg);
+    height: 185px;
+    position: relative;
+}
+
+#introbottomnav a{
+    position: absolute;
+right: 130px;
+top: 95px;
+}
+
+#introbottomnav .chapter{
+    position: absolute;
+    right: 245px;
+    top: -32px;
+    width: 156px;
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+}
+
+#introbottomnav .title{
+    position: absolute;
+    right: 10px;
+    position: absolute;
+    right: 0;
+    width: 400px;
+    top: -5px;
+    font-size: 1.8em;
+    color: yellow;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*  ----------------------------------------- CHAPTER 1 -----------------------------------------  */
+
+#one{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+.italic{
+    font-style: italic;
+    font-weight: 300;
+}
+.ch1p1 {
+    height: 780px;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2px;
+   
+    width: 100%;
+        background-image:url("images/ch1.jpg");
+        background-attachment: scroll;
+        background-size: 100%;
+        background-position: 0% 0%;
+        background-repeat: no-repeat;
+    }
+
+.ch1p2 {
+    height: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2px;
+    
+    width: 100%;
+    background-image:url("images/ch1p2.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    
+
+}
+
+#ch1p2secondary {
+    float: left;
+    
+    width: 58.024089%;
+    height: auto;
+    text-align: left;
+    margin-left: 15.8648%;
+    margin-top: 201px;
+    clear: none;
+    min-height: 286px;
+    color: rgb(242, 221, 123);
+    
+    font-size: 2.4em;
+        line-height: 1.2em;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+}
+
+
+
+
+
+.ch1p4 {
+    height: 1000px;
+    margin-left: auto;
+    margin-right: 0;
+    margin-bottom: 0;
+    
+    width: 100%;
+    background-image:url("images/ch1p4.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+        background-attachment: fixed;
+
+}
+
+#ch1p4copy {
+    float: left;
+    font-size: 1em;
+    width: 25%;
+    height: auto;
+    text-align: left;
+    
+    line-height: 1.2em;
+    margin-left: 13.055556%;
+    margin-top: 300px;
+    clear: none;
+    min-height: 402px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(197, 52, 46);
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+
+}
+
+.ch1p5 {
+    height: 2100px;
+    margin-left: auto;
+    margin-right: 0;
+    margin-bottom: 0;
+    
+    width: 100%;
+    background-color: rgb(240, 233, 213);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: auto;
+    position: relative;
+    background-attachment: scroll;
+    }
+
+.cr{
+    position: relative;
+
+}
+
+#ch1p5copy1 {
+    
+    font-size: 1em;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.2em;
+    clear: none;
+    min-height: 538px;
+        width: 22.127821%;
+        color: rgb(77, 77, 77);
+        margin-top: 150px;
+        margin-left: 38%;
+        margin-right: 0%;
+        min-height: 0px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    }
+
+#ch1p5 #image {
+        margin-top: 152px;
+        margin-left: 14.735243%;
+        clear: none;
+        margin-right: 0%;
+        height: auto;
+        width: auto;
+        max-width: 22.137587%;
+    }
+
+#ch1p5caption {
+    
+    font-size: 1em;
+    width: 21.966146%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+     line-height: 1.2em;
+    margin-left: 14.906684%;
+    margin-top: 14.734375px;
+    clear: both;
+    min-height: 112px;
+    margin-right: 0%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+
+#ch1p5copy2 {
+    float: left;
+    font-size: 1em;
+    width: 22.198351%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+     line-height: 1.2em;
+    margin-left: 38.215061%;
+    margin-top: 51.75px;
+    clear: both;
+    min-height: 407px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+
+
+
+#ch1p5pullout {
+    float: left;
+    font-size: 1em;
+    width: 46.25%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-left: 38.169488%;
+    margin-top: 22px;
+    clear: both;
+    min-height: 188px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+
+
+#ch1p5 #image1 {
+    float: left;
+    width: auto;
+    max-width: 38.080512%;
+    height: auto;
+    margin-left: 38.169488%;
+    margin-top: 58px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+
+    #ch1p5 #textspan1 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.2em;
+        color: rgb(77, 77, 77);
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    }
+
+    
+
+    #ch1p5 #textspan {
+        float: none;
+        font-size: 1em;
+         line-height: 1.2em;
+        color: rgb(197, 52, 46);
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    }
+
+    
+
+    #ch1p5 #textspan2 {
+        float: none;
+        font-size: 1.9em;
+        line-height: 1.2em;
+        color: rgb(197, 52, 46);
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+        font-weight: 700;
+    }
+
+.ch1p6 {
+    height: 800px;
+    margin-left: auto;
+    margin-right: 0;
+   
+    width: 100%;
+    background-color: rgb(197, 52, 46);
+    padding-bottom: 200px;
+
+}
+
+#ch1p6 #image {
+    float: left;
+    width: auto;
+    height: auto;
+    margin-left: 14.665799%;
+    margin-top: 135px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    max-width: 22.160373%;
+}
+
+#ch1p6copy {
+    float: left;
+    font-size: 1em;
+    width: 46.00803%;
+    height: auto;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1.1em;
+    margin-left: 1.298828%;
+    margin-top: 200px;
+    clear: none;
+    min-height: 281px;
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch1p6 #textspan {
+    float: none;
+    font-size: 1em;
+    line-height: 1.3em;
+    color: rgb(240, 233, 213);
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+.ch1p7 {
+    height: 1600px;
+    margin-left: auto;
+    margin-right: 0;
+    width: 100%;
+    background-color: rgba(197, 52, 46, 0.8);
+    padding-bottom: 100px;
+}
+
+#ch1p7 #text1 {
+    float: left;
+    font-size: 1em;
+    width: 22.430556%;
+    height: auto;
+    text-align: left;
+    
+    line-height: 1.3em;
+    margin-left: 38.125%;
+    margin-top: 30px;
+    clear: both;
+    min-height: 651px;
+    color: rgb(255, 255, 255);
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch1p7 #text {
+    float: left;
+    font-size: 1em;
+    width: 55.034722%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-left: 38.125%;
+    margin-top: 195px;
+    clear: none;
+    min-height: 91px;
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch1p7 #textspan2 {
+    float: none;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: rgb(255, 255, 255);
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch1p7 #textspan1 {
+    float: none;
+    font-size: 3em;
+    line-height: 1.2em;
+    color: rgb(255, 255, 255);
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+ #ch1p7 #textspan {
+    float: none;
+    font-size: 2.4em;
+    line-height: 1.2em;
+    color: rgb(255, 255, 255);
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch1p7 #textspan3 {
+    float: none;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    color: rgb(255, 255, 255);
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch1p7 #text2 {
+    float: left;
+    font-size: 1em;
+    width: 22.326389%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-left: 1.25%;
+    margin-top: 30px;
+    clear: none;
+    min-height: 134px;
+}
+
+#ch1p7 #textspan4 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(242, 221, 123);
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+    
+#ch1bottomnav{
+    background-image: url(images/bottomnav2.jpg);
+    height: 185px;
+    position: relative;
+}
+
+#ch1bottomnav a.right{
+    position: absolute;
+right: -30px;
+top: 95px;
+}
+
+#ch1bottomnav .chapterRight{
+    position: absolute;
+    right: 245px;
+    top: -32px;
+    width: 156px;
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    font-family: 'Oswald', sans-serif;
+}
+
+#ch1bottomnav .titleRight{
+    position: absolute;
+    right: 10px;
+    position: absolute;
+    right: 0;
+    width: 400px;
+    top: -5px;
+    font-size: 1.8em;
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+}
+
+#ch1bottomnav a.left{
+    position: absolute;
+left: 0px;
+top: 95px;
+}
+
+
+
+#ch1bottomnav .titleLeft{
+    position: absolute;
+    left: 150px;
+    position: absolute;
+    right: 0;
+    width: 400px;
+    top: -17px;
+    font-size: 1.8em;
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*  ----------------------------------------- CHAPTER 2 -----------------------------------------  */
+
+
+.ch2p1 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1px;
+    min-height: 100%;
+    width: 100%;
+        background-image:url("images/ch2.jpg");
+        background-position: 0% 0%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100%;
+    }
+
+.ch2p2 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1px;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("images/ch2P2.jpg");
+        background-position: 0% 0%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100% 780px;
+}
+
+#ch2p2secondary {
+    float: left;
+    font-size: 1em;
+    width: 57%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 14.722222%;
+    margin-top: 315px;
+    clear: none;
+    min-height: 189px;
+}
+
+
+
+    #ch2p2 #textspan {
+        float: none;
+         font-family: 'Oswald', sans-serif;
+        font-size: 2.4em;
+        line-height: 1.2em;
+        font-weight: 400;
+        color: rgb(242, 221, 123);
+    }
+
+
+.ch1p3 {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1px;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("images/ch1p3.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
+.ch2p3 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+        background-color: rgb(240, 240, 230);
+        margin-bottom: -1px;
+        padding-bottom: 100px;
+
+    }
+
+#ch2p3copy1 {
+    float: left;
+    font-size: 1em;
+    width: 22.291667%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-left: 14.652778%;
+    margin-top: 203px;
+    clear: none;
+    min-height: 198px;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+
+#ch2p3pullout1 {
+    float: left;
+    font-size: 2.2em;
+    width: 69.305556%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-left: 14.652778%;
+    margin-top: 21px;
+    clear: both;
+    min-height: 158px;
+    color: rgb(197, 52, 46);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+
+
+#ch2p3copy2 {
+    float: left;
+    font-size: 1em;
+    width: 22.152778%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-left: 1.384549%;
+    margin-top: 35px;
+    clear: none;
+    min-height: 349px;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+
+#ch2p3pullout2 {
+    float: left;
+    font-size: 2.2em;
+    width: 45.694444%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-left: 38.263889%;
+    margin-top: 47px;
+    clear: both;
+    min-height: 62px;
+    color: rgb(197, 52, 46);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch2p3copy3 {
+    float: left;
+    font-size: 1em;
+    width: 22.152778%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-left: 1.384549%;
+    margin-top: 40px;
+    clear: none;
+    min-height: 180px;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch2p3 #image {
+    float: left;
+    width: auto;
+    max-width: 22.291667%;
+    height: auto;
+    margin-left: 14.652778%;
+    margin-top: 35px;
+    clear: both;
+    color: rgb(0, 0, 0);
+}
+
+#ch2p3pullout3 {
+    float: left;
+    font-size: 2.2em;
+    width: 45.719401%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-left: 38.328993%;
+    margin-top: 8.3125px;
+    clear: both;
+    min-height: 102px;
+    color: rgb(197, 52, 46);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch2p3 #image1 {
+    float: left;
+    width: auto;
+    max-width: 22.152778%;
+    height: auto;
+    margin-left: 14.791667%;
+    margin-top: 40px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+.ch2p4 {
+    height: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(240, 240, 230);
+    background-image: url(images/ch2p4.png);
+    padding-bottom: 0px;
+    }
+    
+#ch2p4 #image {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+.ch2p5 {
+    height: 2500px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(240, 240, 230);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-image: url(images/ch2p5.png);
+}
+
+#ch2p5copy {
+    float: left;
+    font-size: 1em;
+    width: 22.569444%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-left: 14.652778%;
+    margin-top: 790px;
+
+    clear: none;
+    min-height: 910px;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+
+}
+
+#ch2p5 #image {
+    float: left;
+    width: auto;
+    max-width: 37.248264%;
+    height: auto;
+    margin-left: 10.376519%;
+    margin-top: 203px;
+    clear: none;
+    margin-right: 0%;
+}
+
+.ch2p6 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(240, 240, 230);
+    
+        background-image:url("images/tractorgirls.jpg");
+        background-position: 0% 0%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: auto;
+        padding-bottom: 50px;
+}
+
+#ch2p6pullout1 {
+    float: left;
+    font-size: 2.2em;
+    width: 55.069444%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-left: 14.861111%;
+    margin-top: 988px;
+    clear: none;
+    min-height: 141px;
+    color: rgb(197, 52, 46);
+    background-color: rgb(240, 240, 230);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch2p6copy1 {
+    float: left;
+    font-size: 1em;
+    width: 22.220052%;
+    height: auto;
+    text-align: left;
+    font-weight: 200;
+    line-height: 1.3em;
+    margin-left: 14.861111%;
+    margin-top: 8px;
+    clear: both;
+    min-height: 338px;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch2p6 #image {
+    float: left;
+    width: auto;
+    max-width: 22.220052%;
+    height: auto;
+    margin-left: 14.791667%;
+    margin-top: 94px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#ch2p6 #image1 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 1.296658%;
+    margin-top: 93px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#ch2p6copy2 {
+    float: left;
+    font-size: 1em;
+    width: 22.289497%;
+    height: auto;
+    text-align: left;
+    font-weight: 200;
+    line-height: 1.3em;
+    margin-left: 14.791667%;
+    margin-top: 54.921875px;
+    clear: both;
+    min-height: 213px;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch2p6pullout2 {
+    float: left;
+    font-size: 2.2em;
+    width: 55%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-left: 14.930556%;
+    margin-top: 35px;
+    clear: both;
+    min-height: 163px;
+    color: rgb(197, 52, 46);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch2p6copy3 {
+    float: left;
+    font-size: 1em;
+    width: 22.220052%;
+    height: auto;
+    text-align: left;
+    font-weight: 200;
+    line-height: 1.3em;
+    margin-left: 23.75%;
+    margin-top: 0px;
+    clear: both;
+    min-height: 206px;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch2p6 #image2 {
+    float: left;
+    width: auto;
+    max-width: 36.577691%;
+    height: auto;
+    margin-left: 1.48546%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#ch2p6 #image3 {
+    float: left;
+    width: auto;
+    max-width: 36.519097%;
+    height: auto;
+    margin-left: 9.442274%;
+    margin-top: 69.625px;
+    clear: both;
+    color: rgb(0, 0, 0);
+}
+
+#ch2p6copy4 {
+    float: left;
+    font-size: 1em;
+    width: 22.082248%;
+    height: auto;
+    text-align: left;
+    font-weight: 200;
+    line-height: 1.2em;
+    margin-left: 1.494141%;
+    margin-top: 186.5625px;
+    clear: none;
+    min-height: 213px;
+    color: rgb(197, 52, 46);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+.ch2p7 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(197, 52, 46, 0.8);
+    padding-bottom: 250px;
+
+}
+
+#ch2p7copy {
+    float: left;
+    font-size: 1em;
+    width: 22.152778%;
+    height: auto;
+    text-align: left;
+    font-weight: 200;
+    line-height: 1.3em;
+    margin-left: 23.541667%;
+    margin-top: 200px;
+    clear: none;
+    min-height: 747px;
+    color: rgb(255, 255, 255);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch2p7secondary {
+    float: left;
+    font-size: 1em;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1em;
+    margin-left: 23.680556%;
+    margin-top: 336px;
+    clear: both;
+    min-height: 325px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#ch2p7 #textspan {
+        float: none;
+        font-size: 2.4em;
+        line-height: 1.2em;
+        font-weight: 400;
+        color: rgb(242, 221, 123);
+    }
+
+
+
+#ch2bottomnav{
+    background-image: url(images/bottomnav2.jpg);
+    height: 185px;
+    position: relative;
+}
+
+#ch2bottomnav a.right{
+    position: absolute;
+right: 134px;
+top: 95px;
+}
+
+#ch2bottomnav .chapterRight{
+    position: absolute;
+    right: 245px;
+    top: -32px;
+    width: 156px;
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+#ch2bottomnav .titleRight{
+    position: absolute;
+    right: 0;
+    width: 400px;
+    top: -5px;
+    font-size: 1.8em;
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+#ch2bottomnav a.left{
+    position: absolute;
+left: 0px;
+top: 95px;
+}
+
+
+#ch2bottomnav .chapterLeft{
+    position: absolute;
+    left: 153px;
+    top: -32px;
+    width: 156px;
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+#ch2bottomnav .titleLeft{
+    left: 150px;
+    position: absolute;
+    right: 0;
+    width: 400px;
+    top: -5px;
+    font-size: 1.8em;
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/*  ----------------------------------------- CHAPTER 3 -----------------------------------------  */
+
+.ch3p1 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1px;
+    min-height: 100%;
+    width: 100%;
+        background-image:url("images/ch3.jpg");
+        background-position: 0% 0%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100%;
+
+    }
+
+.ch3p2 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+        margin-bottom: -1px;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("images/ch3P2.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+
+#ch3p2secondary {
+    float: left;
+    font-size: 2.4em;
+    width: 55.138889%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-left: 14.665799%;
+    margin-top: 315px;
+    clear: none;
+    min-height: 224px;
+    color: rgb(242, 221, 123);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.ch3p3 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1px;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("images/gun.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.ch3p4 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(240, 240, 230);
+    background-attachment: scroll;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+    padding-bottom: 100px;
+
+}
+
+#ch3p4copy {
+    float: left;
+    font-size: 1em;
+    width: 22.430556%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin-left: 14.665799%;
+    margin-top: 133px;
+    clear: none;
+    min-height: 646px;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch3p4copy1 {
+    float: left;
+    font-size: 1em;
+    width: 22.154948%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin-left: 1.776259%;
+    margin-top: 123px;
+    clear: none;
+    min-height: 627px;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch3p4 #image {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 1.776259%;
+    margin-top: 133px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#ch3p4 #image1 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 10.737847%;
+    margin-top: 123px;
+    clear: both;
+    color: rgb(0, 0, 0);
+}
+
+.ch3p5 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(240, 240, 230);
+}
+
+#ch3p5 #image {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+.ch3p6 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1px;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(240, 240, 230);
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+#ch3p6pullout {
+    float: left;
+    font-size: 2.2em;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: rgb(197, 52, 46);
+    margin-top: 206px;
+        margin-left: 9.160156%;
+        clear: none;
+        width: 45.797526%;
+        height: auto;
+        min-height: 0px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch3p6copy {
+    float: left;
+    font-size: 1em;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-top: 450px;
+    clear: none;
+    min-height: 218px;
+    color: rgb(73, 73, 73);
+        margin-left: -45.797526%;
+        width: 22.290582%;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch3p6 #image {
+    float: left;
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+        max-width: 38.097873%;
+        margin-top: 0px;
+        margin-left: 0.06835938%;
+}
+
+.ch3p7 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(197, 52, 46);
+}
+
+#ch3p7 #text {
+    float: left;
+    font-size: 2.4em;
+    width: 54.930556%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-left: 14.665799%;
+    margin-top: 317px;
+    clear: none;
+    min-height: 277px;
+    color: rgb(242, 221, 123);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+
+}
+
+#ch3bottomnav{
+    background-image: url(images/bottomnav2.jpg);
+    height: 185px;
+    position: relative;
+   
+}
+
+#ch3bottomnav a.right{
+    position: absolute;
+right: 70px;
+top: 95px;
+}
+
+#ch3bottomnav .chapterRight{
+    position: absolute;
+    right: 245px;
+    top: -32px;
+    width: 156px;
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+#ch3bottomnav .titleRight{
+    position: absolute;
+    right: 0;
+    width: 400px;
+    top: -5px;
+    font-size: 1.8em;
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+#ch3bottomnav a.left{
+    position: absolute;
+left: 0px;
+top: 95px;
+}
+
+
+#ch3bottomnav .chapterLeft{
+    position: absolute;
+    left: 153px;
+    top: -32px;
+    width: 156px;
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+#ch3bottomnav .titleLeft{
+    left: 150px;
+    position: absolute;
+    right: 0;
+    width: 400px;
+    top: -5px;
+    font-size: 1.8em;
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+/*  ----------------------------------------- CHAPTER 4  ----------------------------------------- */
+
+.ch4p1 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1px;
+    min-height: 100%;
+    width: 100%;
+        background-image:url("images/ch4.jpg");
+        background-position: 0% 0%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100%;
+    }
+
+.ch4p2 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1px;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("images/ch4p2.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+
+#ch4p2secondary {
+    float: left;
+    font-size: 1em;
+    width: 65%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 14.665799%;
+    margin-top: 204px;
+    clear: none;
+    min-height: 291px;
+    
+}
+
+#ch4p2 #textspan {
+    float: none;
+    font-size: 2.4em;
+    line-height: 1.2em;
+    color: rgb(242, 221, 123);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.ch4p3 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(240, 240, 230);
+    padding-bottom: 100px;
+}
+
+#ch4p3pullout1 {
+    float: left;
+    font-size: 2.2em;
+    width: 55.138889%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-left: 14.665799%;
+    margin-top: 203px;
+    clear: none;
+    min-height: 190px;
+    color: rgb(197, 52, 46);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch4p3copy1 {
+    float: left;
+    font-size: 1em;
+    width: 22.430556%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin-left: 14.665799%;
+    margin-top: 47px;
+    clear: both;
+    min-height: 373px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch4p3 #textspan {
+    float: none;
+    font-size: 1em;
+    line-height: 1.3em;
+    font-weight: 300;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch4p3pullout2 {
+    float: left;
+    font-size: 2.2em;
+    width: 47.5%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-left: 14.665799%;
+    margin-top: 103px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(197, 52, 46);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch4p3copy2 {
+    float: left;
+    font-size: 1em;
+    width: 22.443576%;
+    height: auto;
+    text-align: left;
+    font-weight: 200;
+    line-height: 1.3em;
+    margin-left: 38.263889%;
+    margin-top: 47px;
+    clear: both;
+    min-height: 421px;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch4p3pullout3 {
+    float: left;
+    font-size: 2.2em;
+    width: 45.868056%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-left: 38.263889%;
+    margin-top: 24px;
+    clear: both;
+    min-height: 194px;
+    color: rgb(197, 52, 46);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch4p3 #image {
+    float: left;
+    width: auto;
+    height: auto;
+    margin-left: 9.027778%;
+    margin-top: -73px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    max-width: 23.43967%;
+}
+
+#ch4p3caption {
+    float: left;
+    font-size: 1em;
+    width: 23.43967%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.1em;
+    margin-left: -22.43967%;
+    margin-top: 395px;
+    clear: none;
+    min-height: 54px;
+    color: rgb(197, 52, 46);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+.ch4p4 {
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("images/text.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+#ch4p4copy {
+    float: left;
+    font-size: 1em;
+    width: 24%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-left: 13.402778%;
+    margin-top: 297px;
+    clear: none;
+    min-height: 316px;
+    color: rgb(73, 73, 73);
+    background-color: rgb(240, 240, 230);
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+.ch4p5 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(240, 240, 230);
+    padding-bottom: 75px;
+}
+
+#ch4p5pullout1 {
+    float: left;
+    font-size: 2.2em;
+    width: 45.833333%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-left: 14.665799%;
+    margin-top: 203px;
+    clear: none;
+    min-height: 152px;
+    color: rgb(197, 52, 46);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch4p5copy1 {
+    float: left;
+    font-size: 1em;
+    width: 22.443576%;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin-left: 1.210938%;
+    margin-top: 40px;
+    clear: none;
+    min-height: 343px;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch4p5pullout11 {
+    float: left;
+    font-size: 2.2em;
+    width: 46.076389%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-left: 38.05447%;
+    margin-top: 22px;
+    clear: both;
+    min-height: 119px;
+    color: rgb(197, 52, 46);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch4p5copy2 {
+    float: left;
+    font-size: 1em;
+    width: 22.443576%;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin-left: 38.611111%;
+    margin-top: 16px;
+    clear: both;
+    min-height: 530px;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch4p5pullout12 {
+    float: left;
+    font-size: 2.2em;
+    width: 45.833333%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-left: 14.700521%;
+    margin-top: 110px;
+    clear: both;
+    min-height: 268px;
+    color: rgb(197, 52, 46);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch4p5copy3 {
+    float: left;
+    font-size: 1em;
+    width: 22.361111%;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin-left: 15.164931%;
+    margin-top: 17px;
+    clear: both;
+    min-height: 313px;
+    color: rgb(73, 73, 73);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch4p5caption {
+    float: left;
+    font-size: 1em;
+    width: 21%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-left: 14.667969%;
+    margin-top: 5px;
+    clear: both;
+    min-height: 84px;
+    color: rgb(197, 52, 46);
+    margin-right: 0%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+}
+
+#ch4p5 #image {
+    float: left;
+    width: auto;
+    max-width: 22.177734%;
+    height: auto;
+    margin-left: 14.665799%;
+    margin-top: 39px;
+    clear: both;
+    color: rgb(0, 0, 0);
+}
+
+.ch4p6 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(197, 52, 46);
+    background-image:url("images/fist_girl.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+#ch4p6secondary {
+    float: left;
+    font-size: 2.4em;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-left: 5.416667%;
+    margin-top: 203px;
+    clear: none;
+    min-height: 503px;
+    color: rgb(242, 221, 123);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+#ch4bottomnav{
+    background-image: url(images/bottomnav3.jpg);
+    height: 185px;
+    position: relative;
+    opacity: 1;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+#ch4bottomnav a.left{
+    position: absolute;
+    left: 0px;
+    top: 95px;
+}
+
+
+#ch4bottomnav .chapterLeft{
+    position: absolute;
+    left: 153px;
+    top: -32px;
+    width: 156px;
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+}
+
+#ch4bottomnav .titleLeft{
+    left: 150px;
+    position: absolute;
+    right: 0;
+    width: 400px;
+    top: -5px;
+    font-size: 1.8em;
+    color: yellow;
+}
+
+#ch4bottomnav ul{
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    display: block;
+}
+
+#ch4bottomnav li{
+    display: inline;
+    text-decoration: none;
+}
+
+#ch4bottomnav li a{
+    margin: 40px;
+    color: white;
+    font-size: 1.3em;
+}
+
+#ch4bottomnav li a:hover{
+    color: yellow;
+    opacity: 1;
+}
+
+
+/*  ----------------------------------------- ABOUT -----------------------------------------  */
+
+.about {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(197, 52, 46, 0.8);
+    background-attachment: scroll;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+        margin-bottom: 0px;
+        font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+   #about #text {
+        float: left;
+        
+        width: 63.146701%;
+        height: auto;
+        text-align: left;
+        
+        margin-left: 14.665799%;
+        margin-top: 200px;
+        clear: none;
+        min-height: 391px;
+        font-size: 2.4em;
+        line-height: 1.2em;
+    }
+
+    #about #textspan {
+        float: none;
+        
+        color: rgb(242, 221, 123);
+        
+    }
+
+    #about #textspan2 {
+        float: none;
+       
+        color: rgb(242, 221, 123);
+       
+    }
+
+    #about #textspan1 {
+        float: none;
+       
+        color: rgb(240, 240, 230);
+   
+    }
+
+    #about #textspan4 {
+        float: none;
+       
+        color: rgb(242, 221, 123);
+    
+    }
+
+    #about #textspan3 {
+        float: none;
+        
+        color: rgb(240, 240, 230);
+        
+    }
+
+/*  ----------------------------------------- CONTACT -----------------------------------------  */
+
+.contact {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(197, 52, 46, 0.8);
+    background-attachment: scroll;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+    margin-bottom: 0px;
+        padding-bottom: 150px;
+}
+
+#contact #text {
+        float: left;
+        font-size: 1em;
+        width: 63.146701%;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 14.665799%;
+        margin-top: 200px;
+        clear: none;
+        min-height: 391px;
+
+    }
+
+  
+
+    #contact #textspan1 {
+        float: none;
+        font-size: 2.4em;
+        line-height: 1.2em;
+        color: rgb(240, 240, 230);
+        font-weight: 500;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    }
+
+    #contact #textspan2 {
+        float: none;
+        font-size: 1.5em;
+        line-height: 1.3em;
+        color: rgb(73, 73, 73);
+        font-weight: 500;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    }
+
+    #contact #textspan {
+        float: none;
+        font-size: 2.4em;
+        line-height: 1.2em;
+        color: rgb(242, 221, 123);
+        font-weight: 400;
+        font-family: 'Oswald', sans-serif; 
+    }
+
+#contact a:hover{
+    color: white;
+    opacity: 1;
+}
+
+
+
+/*  ----------------------------------------- SOURCES -----------------------------------------  */
+
+.sources {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(240, 240, 230); 
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;    
+    }
+
+    #sources #text {
+        float: left;
+        font-size: 2.4em;
+        width: 22.082248%;
+        height: auto;
+        text-align: left;
+       
+        line-height: 1.3em;
+        margin-left: 14.665799%;
+        margin-top: 202px;
+        clear: none;
+        min-height: 99px;
+        color: rgb(197, 52, 46);
+        font-weight: 400;
+        font-family: 'Oswald', sans-serif; 
+    }
+
+    #sources #textTitle{
+    float: none;
+        font-size: 1.4em;
+        line-height: 1em;
+        color: rgb(197, 52, 46);
+        
+        font-weight: 600;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;   
+    }
+
+    #sources #text1 {
+        float: left;
+        font-size: 1em;
+        width: 45.555556%;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1.3em;
+        margin-left: 14.665799%;
+        margin-top: 15px;
+        clear: both;
+        min-height: 277px;
+        color: rgb(73, 73, 73);
+    }
+
+    #sources #text3 {
+        float: left;
+        font-size: 1em;
+        width: 45.555556%;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1.3em;
+        margin-left: 14.665799%;
+        margin-top: 35px;
+        clear: both;
+        min-height: 277px;
+        color: rgb(73, 73, 73);
+    }
+
+
+    
+    #sources #textspan {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    
+    #sources #textspan1 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    
+    #sources #textspan2 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        color: rgb(197, 52, 46);
+    }
+
+    
+    #sources #textspan3 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        color: rgb(197, 52, 46);
+    }
+
+    
+    #sources #text2 {
+        float: left;
+        font-size: 1em;
+        width: 38.194444%;
+        height: auto;
+        text-align: left;
+        font-weight: 800;
+        line-height: 1.3em;
+        margin-left: 14.665799%;
+        margin-top: -30px;
+        clear: both;
+        min-height: 101px;
+        color: rgb(73, 73, 73);
+    }
+
+    
+    #sources #textspan4 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        color: rgb(197, 52, 46);
+    }
+
+/*  ---------------------------------- ADDITIONAL RESOURCES -----------------------------------------  */
+
+.additional {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;    
+}
+
+#additional #text {
+    float: left;
+    font-size: 2.4em;
+    width: 39.721137%;
+    height: auto;
+    text-align: left;
+   
+    line-height: 1.3em;
+    margin-left: 14.665799%;
+    margin-top: 202px;
+    clear: none;
+    min-height: 99px;
+    color: rgb(197, 52, 46);
+    font-weight: 400;
+        font-family: 'Oswald', sans-serif; 
+}
+
+#additional #text1 {
+    float: left;
+    font-size: 1em;
+    width: 45.555556%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin-left: 14.665799%;
+    margin-top: 15px;
+    clear: both;
+    min-height: 277px;
+    color: rgb(73, 73, 73);
+}
+
+    .additional {
+        background-color: rgb(240, 240, 230);
+        margin-bottom: 0px;
+        padding-bottom: 150px;
+    }
+
+    #additional #text {
+        float: left;
+        font-size: 2.4em;
+        width: 39.721137%;
+        height: auto;
+        text-align: left;
+        
+        line-height: 1.3em;
+        margin-left: 14.665799%;
+        margin-top: 202px;
+        clear: none;
+        min-height: 99px;
+        color: rgb(197, 52, 46);
+    }
+
+    #additional #text1 {
+        float: left;
+        font-size: 1em;
+        width: 45.555556%;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1.3em;
+        margin-left: 14.665799%;
+        margin-top: 15px;
+        clear: both;
+        min-height: 277px;
+        color: rgb(73, 73, 73);
+    }
+
+    #additional #textspan1 {
+        float: none;
+        font-size: 1.4em;
+        line-height: 1em;
+        color: rgb(197, 52, 46);
+    }
+
+    #additional #textspan {
+        float: none;
+        font-size: 1.4em;
+        line-height: 1em;
+        color: rgb(197, 52, 46);
+        font-weight: 600;
+    }
+
+    #additional #textspan9 {
+        float: none;
+        font-size: 1.4em;
+        line-height: 1em;
+        color: rgb(197, 52, 46);
+        font-weight: 700;
+
+    }
+
+    #additional #textspan14 {
+        float: none;
+        font-size: 1.1em;
+        line-height: 1.3em;
+    }
+
+    #additional #textspan13 {
+        float: none;
+        font-size: 1.4em;
+        line-height: 1em;
+        color: rgb(197, 52, 46);
+        font-weight: 700;
+    }
+
+    #additional #textspan2 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    #additional #textspan3 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    #additional #textspan4 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    #additional #textspan5 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    #additional #textspan6 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    #additional #textspan7 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    #additional #textspan8 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+   #additional  #textspan10 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    #additional #textspan11 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    #additional #textspan12 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    #additional #textspan15 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    #additional #textspan16 {
+        float: none;
+        font-size: 1em;
+        line-height: 1.3em;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+
+
+
