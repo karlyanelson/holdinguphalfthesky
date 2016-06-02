@@ -6,12 +6,19 @@
 
 body {
     margin-top: -20px;
+    min-width: 1440px;
+    max-width: 1440px;
+    background-color: #CF5F5B !important;
 }
+
 
 a:hover {
     opacity: 0.5;
 }
- 
+
+
+
+/* ----------------------------------------- NAVIGATION -----------------------------------------  */
 
 #hidNav {
     height: 0px;
@@ -22,10 +29,7 @@ a:hover {
     top: 0;
     left: 0;
     z-index: 100;
-    
 }
-
-
 
 
 #openNav {
@@ -36,17 +40,15 @@ a:hover {
     height: 35px;
     top: 15px;
     left: 15px;
-    
+
     border: none;
     padding: 0;
     margin: 0;
 
-    
 }
 
 #openNav:hover{
     outline: 2px solid white;
-    
 }
 
 
@@ -69,9 +71,9 @@ a:hover {
 .links li a {
     width: 100%;
     height: 100%;
-    
+
     display: block;
-    
+
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 1.4em;
@@ -92,12 +94,12 @@ a:hover {
 
 .thumbnails li {
     list-style: none;
-    
+
     display: inline-block;
     width: 250px;
     height: 100px;
     margin: 5px;
-    
+
     padding: 0px;
 }
 
@@ -133,7 +135,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -2px;
-    
+
     width: 100%;
     background-image:url("images/home.jpg");
     background-position: 0% 0%;
@@ -141,6 +143,8 @@ a:hover {
     background-attachment: scroll;
     background-size: 100%;
     position:relative;
+    min-width: 1440px;
+    max-width: 1440px;
     }
 
 #introp1 .downArrow{
@@ -158,7 +162,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
         margin-bottom: -2px;
-    
+
     width: 100%;
     position: relative;
         background-image:url("images/introp2.jpg");
@@ -166,16 +170,18 @@ a:hover {
         background-size: 100%;
         background-position: 0% 0%;
         background-repeat: no-repeat no-repeat;
+        min-width: 1440px;
+        max-width: 1440px;
 }
 
 #introp2secondary {
     float: left;
     font-size: 1em;
-    
+
     height: auto;
     text-align: left;
-    
-    
+
+
     margin-left: 0px;
     margin-top: 0px;
     clear: none;
@@ -207,33 +213,33 @@ a:hover {
     height: 900px;
     margin-left: auto;
     margin-right: auto;
-    
+
     width: 100%;
     background-image:url("images/1960s.jpg");
     background-position: 0% 0%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
     position: relative;
 
 }
 
 #introp3copy {
     float: left;
-    
+
     font-size: 1em;
     line-height: 1.3em;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
-    
+
     height: auto;
     text-align: left;
-    
-    
+
+
     clear: none;
     min-height: 235px;
     margin-right: 0%;
-   
+
     clear: none;
     width: 25.5%;
     position: static;
@@ -247,12 +253,12 @@ a:hover {
 
 
 
- 
+
 .introp4 {
     height: 1600px;
     margin-left: auto;
     margin-right: auto;
-    
+
     width: 100%;
     background-color: rgba(197, 52, 46, 0.8);
     position: relative;
@@ -262,7 +268,7 @@ a:hover {
 #introp4copy {
     font-size: 1em;
     line-height: 1em;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
     font-weight: 300;
 
     float: left;
@@ -300,13 +306,13 @@ a:hover {
     height: 1000px;
     margin-left: auto;
     margin-right: auto;
-    
+
     width: 100%;
     background-image:url("images/mao.jpg");
     background-position: 0% 0%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
 }
 
 #introp5pullout {
@@ -330,14 +336,14 @@ a:hover {
     float: none;
     font-size: 2.4em;
     line-height: 1.2em;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
     font-weight: 300;
     position: fixed;
     top: 250px;
     left: 700px;
     margin-right: 40px;
     color: rgb(255, 255, 255);
-    
+
     background-attachment: fixed;
 
 }
@@ -346,7 +352,7 @@ a:hover {
     height: 1800px;
     margin-left: auto;
     margin-right: auto;
- 
+
     width: 100%;
     background-color: rgb(240, 240, 230);
 }
@@ -366,7 +372,7 @@ a:hover {
 
 #introp6 #Span {
     float: none;
-    
+
     font-size: 2em;
     font-weight: 700;
     line-height: 1.2em;
@@ -393,7 +399,7 @@ a:hover {
     font-size: 1em;
     line-height: 1.3em;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #introp6pullout2 {
@@ -416,7 +422,7 @@ a:hover {
     line-height: 1.2em;
     font-weight: 700;
     color: rgb(197, 52, 46);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #introp6copy2 {
@@ -440,14 +446,14 @@ a:hover {
     font-size: 1em;
     line-height: 1.3em;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #introp6 #textspan3 {
     float: none;
     font-size: 1em;
     line-height: 1.1em;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #introp5copy2red {
@@ -455,13 +461,15 @@ a:hover {
     font-size: 1em;
     line-height: 1.1em;
     color: rgb(197, 52, 46);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 
 
 #introbottomnav{
     background-image: url(images/bottomnav1.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
     height: 185px;
     position: relative;
 }
@@ -503,7 +511,7 @@ top: 95px;
     padding: 0;
     margin: 0;
     width: 100%;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 .italic{
@@ -516,7 +524,7 @@ top: 95px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -2px;
-   
+
     width: 100%;
         background-image:url("images/ch1.jpg");
         background-attachment: scroll;
@@ -530,20 +538,20 @@ top: 95px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -2px;
-    
+
     width: 100%;
     background-image:url("images/ch1p2.jpg");
     background-position: 0% 0%;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: 100%;
-    
+
 
 }
 
 #ch1p2secondary {
     float: left;
-    
+
     width: 58.024089%;
     height: auto;
     text-align: left;
@@ -552,7 +560,7 @@ top: 95px;
     clear: none;
     min-height: 286px;
     color: rgb(242, 221, 123);
-    
+
     font-size: 2.4em;
         line-height: 1.2em;
         font-family: 'Oswald', sans-serif;
@@ -568,12 +576,12 @@ top: 95px;
     margin-left: auto;
     margin-right: 0;
     margin-bottom: 0;
-    
+
     width: 100%;
     background-image:url("images/ch1p4.jpg");
     background-position: 0% 0%;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     position: relative;
         background-attachment: fixed;
 
@@ -585,7 +593,7 @@ top: 95px;
     width: 25%;
     height: auto;
     text-align: left;
-    
+
     line-height: 1.2em;
     margin-left: 13.055556%;
     margin-top: 300px;
@@ -597,7 +605,7 @@ top: 95px;
     padding-right: 24px;
     padding-bottom: 24px;
     padding-left: 24px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 
 }
 
@@ -606,7 +614,7 @@ top: 95px;
     margin-left: auto;
     margin-right: 0;
     margin-bottom: 0;
-    
+
     width: 100%;
     background-color: rgb(240, 233, 213);
     background-repeat: no-repeat;
@@ -622,7 +630,7 @@ top: 95px;
 }
 
 #ch1p5copy1 {
-    
+
     font-size: 1em;
     height: auto;
     text-align: left;
@@ -636,33 +644,31 @@ top: 95px;
         margin-left: 38%;
         margin-right: 0%;
         min-height: 0px;
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
     }
 
 #ch1p5 #image {
         margin-top: 152px;
-        margin-left: 14.735243%;
+        margin-left: 200px;
         clear: none;
         margin-right: 0%;
         height: auto;
         width: auto;
-        max-width: 22.137587%;
     }
 
 #ch1p5caption {
-    
     font-size: 1em;
-    width: 21.966146%;
+    width: 336px;
     height: auto;
     text-align: left;
     font-weight: normal;
      line-height: 1.2em;
-    margin-left: 14.906684%;
-    margin-top: 14.734375px;
+    margin-left: 200px;
+    padding-top: 18px;
     clear: both;
     min-height: 112px;
     margin-right: 0%;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 
@@ -678,7 +684,7 @@ top: 95px;
     margin-top: 51.75px;
     clear: both;
     min-height: 407px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 
@@ -696,7 +702,7 @@ top: 95px;
     margin-top: 22px;
     clear: both;
     min-height: 188px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 
@@ -719,27 +725,27 @@ top: 95px;
         font-size: 1em;
         line-height: 1.2em;
         color: rgb(77, 77, 77);
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
     }
 
-    
+
 
     #ch1p5 #textspan {
         float: none;
         font-size: 1em;
          line-height: 1.2em;
         color: rgb(197, 52, 46);
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
     }
 
-    
+
 
     #ch1p5 #textspan2 {
         float: none;
         font-size: 1.9em;
         line-height: 1.2em;
         color: rgb(197, 52, 46);
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
         font-weight: 700;
     }
 
@@ -747,7 +753,7 @@ top: 95px;
     height: 800px;
     margin-left: auto;
     margin-right: 0;
-   
+
     width: 100%;
     background-color: rgb(197, 52, 46);
     padding-bottom: 200px;
@@ -777,7 +783,7 @@ top: 95px;
     margin-top: 200px;
     clear: none;
     min-height: 281px;
-     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch1p6 #textspan {
@@ -785,7 +791,7 @@ top: 95px;
     font-size: 1em;
     line-height: 1.3em;
     color: rgb(240, 233, 213);
-     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 .ch1p7 {
@@ -803,14 +809,14 @@ top: 95px;
     width: 22.430556%;
     height: auto;
     text-align: left;
-    
+
     line-height: 1.3em;
     margin-left: 38.125%;
     margin-top: 30px;
     clear: both;
     min-height: 651px;
     color: rgb(255, 255, 255);
-     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch1p7 #text {
@@ -825,7 +831,7 @@ top: 95px;
     margin-top: 195px;
     clear: none;
     min-height: 91px;
-     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch1p7 #textspan2 {
@@ -833,7 +839,7 @@ top: 95px;
     font-size: 1em;
     line-height: 1.2em;
     color: rgb(255, 255, 255);
-     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch1p7 #textspan1 {
@@ -841,7 +847,7 @@ top: 95px;
     font-size: 3em;
     line-height: 1.2em;
     color: rgb(255, 255, 255);
-     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
  #ch1p7 #textspan {
@@ -849,7 +855,7 @@ top: 95px;
     font-size: 2.4em;
     line-height: 1.2em;
     color: rgb(255, 255, 255);
-     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch1p7 #textspan3 {
@@ -857,7 +863,7 @@ top: 95px;
     font-size: 1.4em;
     line-height: 1.2em;
     color: rgb(255, 255, 255);
-     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch1p7 #text2 {
@@ -879,9 +885,9 @@ top: 95px;
     font-size: 1em;
     line-height: 1em;
     color: rgb(242, 221, 123);
-     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
-    
+
 #ch1bottomnav{
     background-image: url(images/bottomnav2.jpg);
     height: 185px;
@@ -941,17 +947,16 @@ top: 95px;
 
 
 .ch2p1 {
-    height: auto;
+    height: 780px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -1px;
-    min-height: 100%;
     width: 100%;
         background-image:url("images/ch2.jpg");
         background-position: 0% 0%;
         background-repeat: no-repeat;
         background-attachment: scroll;
-        background-size: 100%;
+        background-size: auto;
     }
 
 .ch2p2 {
@@ -965,7 +970,7 @@ top: 95px;
         background-position: 0% 0%;
         background-repeat: no-repeat;
         background-attachment: scroll;
-        background-size: 100% 780px;
+        background-size: auto;
 }
 
 #ch2p2secondary {
@@ -1005,7 +1010,7 @@ top: 95px;
     background-position: 0% 0%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
 }
 
 
@@ -1018,7 +1023,6 @@ top: 95px;
         background-color: rgb(240, 240, 230);
         margin-bottom: -1px;
         padding-bottom: 100px;
-
     }
 
 #ch2p3copy1 {
@@ -1034,7 +1038,7 @@ top: 95px;
     clear: none;
     min-height: 198px;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 
@@ -1051,7 +1055,7 @@ top: 95px;
     clear: both;
     min-height: 158px;
     color: rgb(197, 52, 46);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 
@@ -1069,7 +1073,7 @@ top: 95px;
     clear: none;
     min-height: 349px;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 
@@ -1086,7 +1090,7 @@ top: 95px;
     clear: both;
     min-height: 62px;
     color: rgb(197, 52, 46);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch2p3copy3 {
@@ -1102,7 +1106,7 @@ top: 95px;
     clear: none;
     min-height: 180px;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch2p3 #image {
@@ -1129,7 +1133,7 @@ top: 95px;
     clear: both;
     min-height: 102px;
     color: rgb(197, 52, 46);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch2p3 #image1 {
@@ -1154,7 +1158,7 @@ top: 95px;
     background-image: url(images/ch2p4.png);
     padding-bottom: 0px;
     }
-    
+
 #ch2p4 #image {
     float: left;
     width: auto;
@@ -1194,7 +1198,7 @@ top: 95px;
     clear: none;
     min-height: 910px;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 
 }
 
@@ -1216,7 +1220,7 @@ top: 95px;
     min-height: 100%;
     width: 100%;
     background-color: rgb(240, 240, 230);
-    
+
         background-image:url("images/tractorgirls.jpg");
         background-position: 0% 0%;
         background-repeat: no-repeat;
@@ -1239,7 +1243,7 @@ top: 95px;
     min-height: 141px;
     color: rgb(197, 52, 46);
     background-color: rgb(240, 240, 230);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch2p6copy1 {
@@ -1255,7 +1259,7 @@ top: 95px;
     clear: both;
     min-height: 338px;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch2p6 #image {
@@ -1294,7 +1298,7 @@ top: 95px;
     clear: both;
     min-height: 213px;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch2p6pullout2 {
@@ -1310,7 +1314,7 @@ top: 95px;
     clear: both;
     min-height: 163px;
     color: rgb(197, 52, 46);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch2p6copy3 {
@@ -1326,7 +1330,7 @@ top: 95px;
     clear: both;
     min-height: 206px;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch2p6 #image2 {
@@ -1365,7 +1369,7 @@ top: 95px;
     clear: none;
     min-height: 213px;
     color: rgb(197, 52, 46);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 .ch2p7 {
@@ -1392,7 +1396,7 @@ top: 95px;
     clear: none;
     min-height: 747px;
     color: rgb(255, 255, 255);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch2p7secondary {
@@ -1491,18 +1495,16 @@ top: 95px;
 /*  ----------------------------------------- CHAPTER 3 -----------------------------------------  */
 
 .ch3p1 {
-    height: auto;
+    height: 780px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -1px;
-    min-height: 100%;
     width: 100%;
         background-image:url("images/ch3.jpg");
         background-position: 0% 0%;
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-size: 100%;
-
     }
 
 .ch3p2 {
@@ -1578,7 +1580,7 @@ top: 95px;
     clear: none;
     min-height: 646px;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch3p4copy1 {
@@ -1594,7 +1596,7 @@ top: 95px;
     clear: none;
     min-height: 627px;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch3p4 #image {
@@ -1666,7 +1668,7 @@ top: 95px;
         width: 45.797526%;
         height: auto;
         min-height: 0px;
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch3p6copy {
@@ -1682,7 +1684,7 @@ top: 95px;
     color: rgb(73, 73, 73);
         margin-left: -45.797526%;
         width: 22.290582%;
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch3p6 #image {
@@ -1728,7 +1730,7 @@ top: 95px;
     background-image: url(images/bottomnav2.jpg);
     height: 185px;
     position: relative;
-   
+
 }
 
 #ch3bottomnav a.right{
@@ -1794,11 +1796,10 @@ top: 95px;
 /*  ----------------------------------------- CHAPTER 4  ----------------------------------------- */
 
 .ch4p1 {
-    height: auto;
+    height: 780px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -1px;
-    min-height: 100%;
     width: 100%;
         background-image:url("images/ch4.jpg");
         background-position: 0% 0%;
@@ -1833,7 +1834,7 @@ top: 95px;
     margin-top: 204px;
     clear: none;
     min-height: 291px;
-    
+
 }
 
 #ch4p2 #textspan {
@@ -1868,7 +1869,7 @@ top: 95px;
     clear: none;
     min-height: 190px;
     color: rgb(197, 52, 46);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch4p3copy1 {
@@ -1883,7 +1884,7 @@ top: 95px;
     margin-top: 47px;
     clear: both;
     min-height: 373px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch4p3 #textspan {
@@ -1892,7 +1893,7 @@ top: 95px;
     line-height: 1.3em;
     font-weight: 300;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch4p3pullout2 {
@@ -1908,7 +1909,7 @@ top: 95px;
     clear: both;
     min-height: 0px;
     color: rgb(197, 52, 46);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch4p3copy2 {
@@ -1924,7 +1925,7 @@ top: 95px;
     clear: both;
     min-height: 421px;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch4p3pullout3 {
@@ -1940,7 +1941,7 @@ top: 95px;
     clear: both;
     min-height: 194px;
     color: rgb(197, 52, 46);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch4p3 #image {
@@ -1968,7 +1969,7 @@ top: 95px;
     clear: none;
     min-height: 54px;
     color: rgb(197, 52, 46);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 .ch4p4 {
@@ -1981,7 +1982,7 @@ top: 95px;
     background-position: 0% 0%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
 }
 
 #ch4p4copy {
@@ -2002,7 +2003,7 @@ top: 95px;
     padding-right: 24px;
     padding-bottom: 24px;
     padding-left: 24px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 .ch4p5 {
@@ -2028,7 +2029,7 @@ top: 95px;
     clear: none;
     min-height: 152px;
     color: rgb(197, 52, 46);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch4p5copy1 {
@@ -2044,7 +2045,7 @@ top: 95px;
     clear: none;
     min-height: 343px;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch4p5pullout11 {
@@ -2060,7 +2061,7 @@ top: 95px;
     clear: both;
     min-height: 119px;
     color: rgb(197, 52, 46);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch4p5copy2 {
@@ -2076,7 +2077,7 @@ top: 95px;
     clear: both;
     min-height: 530px;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch4p5pullout12 {
@@ -2092,7 +2093,7 @@ top: 95px;
     clear: both;
     min-height: 268px;
     color: rgb(197, 52, 46);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch4p5copy3 {
@@ -2108,7 +2109,7 @@ top: 95px;
     clear: both;
     min-height: 313px;
     color: rgb(73, 73, 73);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch4p5caption {
@@ -2125,7 +2126,7 @@ top: 95px;
     min-height: 84px;
     color: rgb(197, 52, 46);
     margin-right: 0%;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #ch4p5 #image {
@@ -2162,7 +2163,7 @@ top: 95px;
     font-weight: 700;
     line-height: 1.2em;
     margin-left: 5.416667%;
-    margin-top: 203px;
+    margin-top: 300px;
     clear: none;
     min-height: 503px;
     color: rgb(242, 221, 123);
@@ -2251,11 +2252,11 @@ top: 95px;
 
    #about #text {
         float: left;
-        
+
         width: 63.146701%;
         height: auto;
         text-align: left;
-        
+
         margin-left: 14.665799%;
         margin-top: 200px;
         clear: none;
@@ -2266,37 +2267,37 @@ top: 95px;
 
     #about #textspan {
         float: none;
-        
+
         color: rgb(242, 221, 123);
-        
+
     }
 
     #about #textspan2 {
         float: none;
-       
+
         color: rgb(242, 221, 123);
-       
+
     }
 
     #about #textspan1 {
         float: none;
-       
+
         color: rgb(240, 240, 230);
-   
+
     }
 
     #about #textspan4 {
         float: none;
-       
+
         color: rgb(242, 221, 123);
-    
+
     }
 
     #about #textspan3 {
         float: none;
-        
+
         color: rgb(240, 240, 230);
-        
+
     }
 
 /*  ----------------------------------------- CONTACT -----------------------------------------  */
@@ -2331,7 +2332,7 @@ top: 95px;
 
     }
 
-  
+
 
     #contact #textspan1 {
         float: none;
@@ -2339,7 +2340,7 @@ top: 95px;
         line-height: 1.2em;
         color: rgb(240, 240, 230);
         font-weight: 500;
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
     }
 
     #contact #textspan2 {
@@ -2348,7 +2349,7 @@ top: 95px;
         line-height: 1.3em;
         color: rgb(73, 73, 73);
         font-weight: 500;
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
     }
 
     #contact #textspan {
@@ -2357,7 +2358,7 @@ top: 95px;
         line-height: 1.2em;
         color: rgb(242, 221, 123);
         font-weight: 400;
-        font-family: 'Oswald', sans-serif; 
+        font-family: 'Oswald', sans-serif;
     }
 
 #contact a:hover{
@@ -2375,8 +2376,8 @@ top: 95px;
     margin-right: auto;
     min-height: 100%;
     width: 100%;
-    background-color: rgb(240, 240, 230); 
-      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;    
+    background-color: rgb(240, 240, 230);
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
     }
 
     #sources #text {
@@ -2385,7 +2386,7 @@ top: 95px;
         width: 22.082248%;
         height: auto;
         text-align: left;
-       
+
         line-height: 1.3em;
         margin-left: 14.665799%;
         margin-top: 202px;
@@ -2393,7 +2394,7 @@ top: 95px;
         min-height: 99px;
         color: rgb(197, 52, 46);
         font-weight: 400;
-        font-family: 'Oswald', sans-serif; 
+        font-family: 'Oswald', sans-serif;
     }
 
     #sources #textTitle{
@@ -2401,9 +2402,9 @@ top: 95px;
         font-size: 1.4em;
         line-height: 1em;
         color: rgb(197, 52, 46);
-        
+
         font-weight: 600;
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;   
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
     }
 
     #sources #text1 {
@@ -2437,7 +2438,7 @@ top: 95px;
     }
 
 
-    
+
     #sources #textspan {
         float: none;
         font-size: 1em;
@@ -2446,7 +2447,7 @@ top: 95px;
         font-weight: 300;
     }
 
-    
+
     #sources #textspan1 {
         float: none;
         font-size: 1em;
@@ -2455,7 +2456,7 @@ top: 95px;
         font-weight: 300;
     }
 
-    
+
     #sources #textspan2 {
         float: none;
         font-size: 1em;
@@ -2463,7 +2464,7 @@ top: 95px;
         color: rgb(197, 52, 46);
     }
 
-    
+
     #sources #textspan3 {
         float: none;
         font-size: 1em;
@@ -2471,7 +2472,7 @@ top: 95px;
         color: rgb(197, 52, 46);
     }
 
-    
+
     #sources #text2 {
         float: left;
         font-size: 1em;
@@ -2487,7 +2488,7 @@ top: 95px;
         color: rgb(73, 73, 73);
     }
 
-    
+
     #sources #textspan4 {
         float: none;
         font-size: 1em;
@@ -2503,7 +2504,7 @@ top: 95px;
     margin-right: auto;
     min-height: 100%;
     width: 100%;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;    
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
 }
 
 #additional #text {
@@ -2512,7 +2513,7 @@ top: 95px;
     width: 39.721137%;
     height: auto;
     text-align: left;
-   
+
     line-height: 1.3em;
     margin-left: 14.665799%;
     margin-top: 202px;
@@ -2520,7 +2521,7 @@ top: 95px;
     min-height: 99px;
     color: rgb(197, 52, 46);
     font-weight: 400;
-        font-family: 'Oswald', sans-serif; 
+        font-family: 'Oswald', sans-serif;
 }
 
 #additional #text1 {
@@ -2550,7 +2551,7 @@ top: 95px;
         width: 39.721137%;
         height: auto;
         text-align: left;
-        
+
         line-height: 1.3em;
         margin-left: 14.665799%;
         margin-top: 202px;
@@ -2707,7 +2708,3 @@ top: 95px;
         font-style: italic;
         font-weight: 300;
     }
-
-
-
-
