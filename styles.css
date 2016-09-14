@@ -343,9 +343,8 @@ a:hover {
     left: 700px;
     margin-right: 40px;
     color: rgb(255, 255, 255);
-
     background-attachment: fixed;
-
+    max-width: 620px;
 }
 
 .introp6 {
