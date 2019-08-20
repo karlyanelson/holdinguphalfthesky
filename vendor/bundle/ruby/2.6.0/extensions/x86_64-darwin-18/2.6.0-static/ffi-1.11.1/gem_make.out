@@ -1,5 +1,5 @@
 current directory: /Users/nelsonka/development/holdinguphalfthesky/vendor/bundle/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c
-/Users/nelsonka/.rbenv/versions/2.6.3/bin/ruby -I /Users/nelsonka/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20190819-47220-b9wqms.rb extconf.rb
+/Users/nelsonka/.rbenv/versions/2.6.3/bin/ruby -I /Users/nelsonka/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20190820-46090-1bk5en.rb extconf.rb
 checking for ffi.h... no
 checking for ffi.h in /usr/local/include,/usr/include/ffi... no
 checking for shlwapi.h... no
@@ -125,4 +125,4 @@ compiling Types.c
 compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.bundle
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20190819-47220-1hvtfdj
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20190820-46090-gheg97

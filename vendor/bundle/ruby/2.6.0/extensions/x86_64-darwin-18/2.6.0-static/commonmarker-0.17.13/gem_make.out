@@ -1,5 +1,5 @@
 current directory: /Users/nelsonka/development/holdinguphalfthesky/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
-/Users/nelsonka/.rbenv/versions/2.6.3/bin/ruby -I /Users/nelsonka/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20190819-47220-1i730f8.rb extconf.rb
+/Users/nelsonka/.rbenv/versions/2.6.3/bin/ruby -I /Users/nelsonka/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20190820-46090-1p4hsww.rb extconf.rb
 creating Makefile
 
 current directory: /Users/nelsonka/development/holdinguphalfthesky/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
@@ -54,4 +54,4 @@ linking shared-object commonmarker/commonmarker.bundle
 
 current directory: /Users/nelsonka/development/holdinguphalfthesky/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 commonmarker.bundle ./.gem.20190819-47220-14i0b54/commonmarker
+/usr/bin/install -c -m 0755 commonmarker.bundle ./.gem.20190820-46090-r9xyfs/commonmarker
